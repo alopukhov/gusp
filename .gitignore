@@ -1,0 +1,10 @@
+### Gradle
+.gradle
+**/build/
+!src/**/build/
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
+### Idea
+.idea

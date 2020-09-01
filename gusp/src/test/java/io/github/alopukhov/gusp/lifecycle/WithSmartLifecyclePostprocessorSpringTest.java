@@ -44,7 +44,6 @@ class WithSmartLifecyclePostprocessorSpringTest {
     }
 
     @Configuration
-    @EnableScheduling
     public static class Conf {
         @Bean
         public static WithSmartLifecyclePostprocessor withSmartLifeCyclePostprocessor() {

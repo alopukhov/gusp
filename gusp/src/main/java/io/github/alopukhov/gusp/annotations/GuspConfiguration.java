@@ -3,7 +3,6 @@ package io.github.alopukhov.gusp.annotations;
 import io.github.alopukhov.gusp.lifecycle.WithSmartLifecyclePostprocessor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
  * Crates support beans for all features of GUSP project.

@@ -10,7 +10,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  * Currently there is only {@link WithSmartLifecyclePostprocessor} bean but this may change in the future.
  */
 @Configuration
-@EnableScheduling
 public class GuspConfiguration {
     @Bean(name = "gusp.WithSmartLifecyclePostprocessor")
     public static WithSmartLifecyclePostprocessor withSmartLifeCyclePostprocessor() {

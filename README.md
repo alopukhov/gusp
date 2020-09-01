@@ -53,8 +53,10 @@ public class MyAwesomeConfig {
 }
 ```
 
-This will create ```ServiceSmartLifecycle``` support bean (of course you can create it yourself).
-Following configurationa are available
+It will create ```ServiceSmartLifecycle``` support bean (of course you can create it yourself). 
+This bean is responsible for starting and stopping your service.
+
+Following configurations are available
 |Propery|Default|Description|
 |---|---|---|
 |beanName||name for generate SmarLifecycle bean. If empty - bean name will be generated based on annotated bean name|
